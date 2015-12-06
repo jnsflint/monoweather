@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>simple-weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="./bootstrap-paper.min.css">
+    <link rel="stylesheet" href="./custom.css">
+  </head>
+  <body>
+
+    <!-- BEGIN div.container -->
+    <div class="container">
+
+        <!-- BEGIN #weather-current -->
+        <div id="weather-current" class="row">
+          <div class="col-xs-12">
+            <h4 class="caption">Today</h4>
+            <div class="row">
+              <div class="col-xs-9 col-sm-6 col-md-4 col-lg-2 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+              <div class="col-xs-3 temps">
+                <h5>High</h5>
+                <h2 class="temp-high">
+                  <span class="value">30</span>°C
+                </h2>
+                <h5>Low</h5>
+                <h2 class="temp-low">
+                  <span class="value">28</span>°C
+                </h2>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <!-- END #weather-current -->
+        
+        <!-- BEGIN #weather-forecast-days -->
+        <div id="weather-forecast-days" class="row">
+          
+          <div id="weather-forecast-hour-1" class="col-xs-4 weather-forecast-container">
+            <h4 class="caption">Hour +1</h4>
+            <div class="row">
+              <div class="col-xs-12 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-6">
+                <h6>Low</h6>
+                <h4 class="temp-low">30°C</h4>
+              </div>
+              <div class="col-xs-6">
+                <h6>High</h6>
+                <h4 class="temp-high">28°C</h4>
+              </div>
+            </div> 
+          </div>
+          
+          <div id="weather-forecast-hour-3" class="col-xs-4 weather-forecast-container">
+            <h4 class="caption">Hour +2</h4>
+            <div class="row">
+              <div class="col-xs-12 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-6">
+                <h6>Low</h6>
+                <h4 class="temp-low">30°C</h4>
+              </div>
+              <div class="col-xs-6">
+                <h6>High</h6>
+                <h4 class="temp-high">28°C</h4>
+              </div>
+            </div> 
+          </div>
+          
+          <div id="weather-forecast-hour-3" class="col-xs-4 weather-forecast-container">
+            <h4 class="caption">Hour +3</h4>
+            <div class="row">
+              <div class="col-xs-12 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-6">
+                <h6>Low</h6>
+                <h4 class="temp-low">30°C</h4>
+              </div>
+              <div class="col-xs-6">
+                <h6>High</h6>
+                <h4 class="temp-high">28°C</h4>
+              </div>
+            </div> 
+          </div>
+          
+        </div>
+        <!-- END #weather-forecast-hours -->
+        
+        
+        <!-- BEGIN #weather-forecast-days -->
+        <div id="weather-forecast-days" class="row">
+          
+          <div id="weather-forecast-day-1" class="col-xs-4 weather-forecast-container">
+            <h4 class="caption">Today +1</h4>
+            <div class="row">
+              <div class="col-xs-12 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-6">
+                <h6>Low</h6>
+                <h4 class="temp-low">30°C</h4>
+              </div>
+              <div class="col-xs-6">
+                <h6>High</h6>
+                <h4 class="temp-high">28°C</h4>
+              </div>
+            </div> 
+          </div>
+          
+          <div id="weather-forecast-day-2" class="col-xs-4 weather-forecast-container">
+            <h4 class="caption">Today +2</h4>
+            <div class="row">
+              <div class="col-xs-12 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-6">
+                <h6>Low</h6>
+                <h4 class="temp-low">30°C</h4>
+              </div>
+              <div class="col-xs-6">
+                <h6>High</h6>
+                <h4 class="temp-high">28°C</h4>
+              </div>
+            </div> 
+          </div>
+          
+          <div id="weather-forecast-day-3" class="col-xs-4 weather-forecast-container">
+            <h4 class="caption">Today +3</h4>
+            <div class="row">
+              <div class="col-xs-12 weather-icon-container">
+                <img src="./weather-icons/bkn.svg" alt="bkn" class="weather-icon">
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-xs-6">
+                <h6 class="temp-low">Low</h6>
+                <h4>30°C</h4>
+              </div>
+              <div class="col-xs-6">
+                <h6>High</h6>
+                <h4 class="temp-high">28°C</h4>
+              </div>
+            </div> 
+          </div>
+          
+        </div>
+        <!-- END #weather-forecast-days -->
+        
+      </div>
+      <!-- END div.container -->
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./custom.js"></script>
+  </body>
+</html>
