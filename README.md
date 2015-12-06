@@ -8,12 +8,12 @@ This app is optimized for a Kindle 4 device, because that's the thing I have rig
 
 ## Todo
 * Make this a real thing that works
-** Parse weather data
-** Send weather data to client
-** Let client update themself
-** Crop svg to real size
-** Update temparture values 
-** Update images (svg)
+  * Parse weather data
+  * Send weather data to client
+  * Let client update themself
+  * Crop svg to real size
+  * Update temparture values 
+  * Update images (svg)
 * Some Hints (you may call it a "documentation" how to configure a Kindle to this usage
 * Search by City + Country
 * Use a real domain
