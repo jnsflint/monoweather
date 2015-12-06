@@ -1,4 +1,4 @@
-# MonoWeather - Simple Weather UI for Monochrome Displays 
+# MonoWeather 
 
 A simple weather app for monochrome displays as an Amazon Kindle.
 
