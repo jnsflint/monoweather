@@ -14,7 +14,7 @@ app.use(requestTime);
 
 app.get('/', function (req, res) {
   
-  var url = "http://api.openweathermap.org/data/2.5/forecast?q=Rostock,de&APPID=a0279d18aaef44ecfa6b42384ed247f9&units=metric&lang=de";
+  var url = "http://api.openweathermap.org/data/2.5/forecast?q=Rostock,de&APPID=XXXXX&units=metric&lang=de";
   var weatherJson = {};
   request({
     url: url,
