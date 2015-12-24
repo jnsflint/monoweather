@@ -4,12 +4,11 @@ A simple weather app for monochrome displays (like an Amazon Kindle).
 
 ## Disclaimer
 
-This app is optimized for a Kindle 4 device (600x800, which is 600x740 for real).
+This app is optimized for a Kindle 4 device (600x800, which is 600x740 actually).
 
 ## Todo
 * Make this a real thing that works
   * Parse weather data
-  * Send weather data to client
   * Let client update themself
   * Update temparture values 
   * Update images (svg)
