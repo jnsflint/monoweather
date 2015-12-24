@@ -1,0 +1,12 @@
+{
+  "name": "monoweather",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "~4.12.4"
+  }
+}

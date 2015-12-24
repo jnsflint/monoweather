@@ -1,0 +1,139 @@
+
+.weather-icon-container {
+	text-align: center;
+}
+
+.weather-icon {
+    display: inline-block;
+    width: 60%;
+}
+
+.weather-icon[data-icon="unknown"] {
+    content: url("/weather-icons/unknown.svg")
+}
+
+.weather-icon[data-icon="mostly-cloudy"] {
+    content: url("/weather-icons/mostly-cloudy.svg")
+}
+
+.weather-icon[data-icon="dust"] {
+    content: url("/weather-icons/dust.svg")
+}
+
+.weather-icon[data-icon="few-clouds"] {
+    content: url("/weather-icons/few-clouds.svg")
+}
+
+.weather-icon[data-icon="fog"] {
+    content: url("/weather-icons/fog.svg")
+}
+
+/* missing description */
+.weather-icon[data-icon="fzrara"] {
+    content: url("/weather-icons/fzrara.svg")
+}
+
+.weather-icon[data-icon="freezing-rain"] {
+    content: url("/weather-icons/freezing-rain.svg")
+}
+
+.weather-icon[data-icon="scattered-showers"] {
+    content: url("/weather-icons/scattered-showers.svg")
+}
+
+.weather-icon[data-icon="scattered-thunderstorms"] {
+    content: url("/weather-icons/scattered-thunderstorms.svg")
+}
+
+.weather-icon[data-icon="sleet"] {
+    content: url("/weather-icons/sleet.svg")
+}
+
+.weather-icon[data-icon="mist"] {
+    content: url("/weather-icons/mist.svg")
+}
+
+.weather-icon[data-icon="snow-freezing-rain"] {
+    content: url("/weather-icons/snow-freezing-rain.svg")
+}
+
+/* missing description */
+.weather-icon[data-icon="nsurtsra"] {
+    content: url("/weather-icons/nsurtsra.svg")
+}
+
+.weather-icon[data-icon="overcast"] {
+    content: url("/weather-icons/overcast.svg")
+}
+
+/* missing description */
+.weather-icon[data-icon="ra1"] {
+    content: url("/weather-icons/ra1.svg")
+}
+
+.weather-icon[data-icon="rain-sleet"] {
+    content: url("/weather-icons/rain-sleet.svg")
+}
+
+.weather-icon[data-icon="snow-rain"] {
+    content: url("/weather-icons/snow-rain.svg")
+}
+
+.weather-icon[data-icon="rain"] {
+    content: url("/weather-icons/rain.svg")
+}
+
+.weather-icon[data-icon="partly-cloudy"] {
+    content: url("/weather-icons/partly-cloudy.svg")
+}
+
+.weather-icon[data-icon="showers"] {
+    content: url("/weather-icons/showers.svg")
+}
+
+.weather-icon[data-icon="fair"] {
+    content: url("/weather-icons/fair.svg")
+}
+
+.weather-icon[data-icon="smoke"] {
+    content: url("/weather-icons/smoke.svg")
+}
+
+.weather-icon[data-icon="snow"] {
+    content: url("/weather-icons/snow.svg")
+}
+
+.weather-icon[data-icon="storm"] {
+    content: url("/weather-icons/storm.svg")
+}
+
+.weather-icon[data-icon="thunderstorms"] {
+    content: url("/weather-icons/thunderstorms.svg")
+}
+
+.weather-icon[data-icon="wind"] {
+    content: url("/weather-icons/wind.svg")
+}
+
+
+
+#weather-current .temps h2 {
+	margin-top: 0;
+}
+
+#weather-current .weather-icon-container {
+	margin-top: 5px;
+}
+
+.weather-forecast-container {
+	margin-top: 30px;	
+}
+
+.weather-forecast-container + .weather-forecast-container {
+	border-left: 2px solid #535353;
+}
+
+
+footer {
+  margin-top: 30px;
+}

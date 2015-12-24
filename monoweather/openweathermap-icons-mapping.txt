@@ -1,0 +1,26 @@
+dust									731, 751, 761
+fair									800
+few-clouds						801
+fog										741
+freezing-rain					511
+fzrara
+mist									701
+mostly-cloudy					803
+nsurtsra
+overcast							804
+partly-cloudy					802
+ra1
+rain-sleet
+rain 										300-321 500-531 /511 /520-522
+scattered-showers
+scattered-thunderstorms 210
+showers									520-522
+sleet										906
+smoke										711
+snow-freezing-rain
+snow-rain								615-616
+snow										600-622 /615-616
+storm										900-902 960-962
+thunderstorms 					200-232 /210
+unknown
+wind										905

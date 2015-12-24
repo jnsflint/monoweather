@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>simple-weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="./css/bootstrap-paper.min.css">
+    <link rel="stylesheet" href="./css/monoweather.css">
+  </head>
+  <body>
+
+    <!-- BEGIN div.container -->
+    <div class="container">
+
+      <!-- BEGIN #weather-current -->
+      <div id="weather-current" class="row">
+        <div class="col-xs-3">
+          <h4 class="caption">Today</h4>
+        </div>
+        <div class="col-xs-6 weather-icon-container">
+          <span class="weather-icon" data-icon="unknown"></span>
+        </div>
+        <div class="col-xs-3 temps">
+          <h5>High</h5>
+          <h2 class="temp-high">
+            <span class="value">30</span>°C
+          </h2>
+          <h5>Low</h5>
+          <h2 class="temp-low">
+            <span class="value">28</span>°C
+          </h2>
+        </div>
+      </div>
+      <!-- END #weather-current -->
+      
+      <!-- BEGIN #weather-forecast-days -->
+      <div id="weather-forecast-days" class="row">
+        
+        <div id="weather-forecast-hour-1" class="col-xs-4 weather-forecast-container">
+          <h4 class="caption">Hour +1</h4>
+          <div class="row">
+            <div class="col-xs-12 weather-icon-container">
+              <span class="weather-icon" data-icon="unknown"></span>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-6">
+              <h6>Low</h6>
+              <h4 class="temp-low"><span class="value">--</span>°C</h4>
+            </div>
+            <div class="col-xs-6">
+              <h6>High</h6>
+              <h4 class="temp-high"><span class="value">--</span>°C</h4>
+            </div>
+          </div> 
+        </div>
+        
+        <div id="weather-forecast-hour-2" class="col-xs-4 weather-forecast-container">
+          <h4 class="caption">Hour +2</h4>
+          <div class="row">
+            <div class="col-xs-12 weather-icon-container">
+              <span class="weather-icon" data-icon="unknown"></span>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-6">
+              <h6>Low</h6>
+              <h4 class="temp-low"><span class="value">--</span>°C</h4>
+            </div>
+            <div class="col-xs-6">
+              <h6>High</h6>
+              <h4 class="temp-high"><span class="value">--</span>°C</h4>
+            </div>
+          </div> 
+        </div>
+        
+        <div id="weather-forecast-hour-3" class="col-xs-4 weather-forecast-container">
+          <h4 class="caption">Hour +3</h4>
+          <div class="row">
+            <div class="col-xs-12 weather-icon-container">
+              <span class="weather-icon" data-icon="unknown"></span>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-6">
+              <h6>Low</h6>
+              <h4 class="temp-low"><span class="value">--</span>°C</h4>
+            </div>
+            <div class="col-xs-6">
+              <h6>High</h6>
+              <h4 class="temp-high"><span class="value">--</span>°C</h4>
+            </div>
+          </div> 
+        </div>
+        
+      </div>
+      <!-- END #weather-forecast-hours -->
+      
+      
+      <!-- BEGIN #weather-forecast-days -->
+      <div id="weather-forecast-days" class="row">
+        
+        <div id="weather-forecast-day-1" class="col-xs-4 weather-forecast-container">
+          <h4 class="caption">Today +1</h4>
+          <div class="row">
+            <div class="col-xs-12 weather-icon-container">
+              <span class="weather-icon" data-icon="unknown"></span>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-6">
+              <h6>Low</h6>
+              <h4 class="temp-low"><span class="value">--</span>°C</h4>
+            </div>
+            <div class="col-xs-6">
+              <h6>High</h6>
+              <h4 class="temp-high"><span class="value">--</span>°C</h4>
+            </div>
+          </div> 
+        </div>
+        
+        <div id="weather-forecast-day-2" class="col-xs-4 weather-forecast-container">
+          <h4 class="caption">Today +2</h4>
+          <div class="row">
+            <div class="col-xs-12 weather-icon-container">
+              <span class="weather-icon" data-icon="unknown"></span>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-6">
+              <h6>Low</h6>
+              <h4 class="temp-low"><span class="value">--</span>°C</h4>
+            </div>
+            <div class="col-xs-6">
+              <h6>High</h6>
+              <h4 class="temp-high"><span class="value">--</span>°C</h4>
+            </div>
+          </div> 
+        </div>
+        
+        <div id="weather-forecast-day-3" class="col-xs-4 weather-forecast-container">
+          <h4 class="caption">Today +3</h4>
+          <div class="row">
+            <div class="col-xs-12 weather-icon-container">
+              <span class="weather-icon" data-icon="unknown"></span>
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-xs-6">
+              <h6>Low</h6>
+              <h4 class="temp-low"><span class="value">--</span>°C</h4>
+            </div>
+            <div class="col-xs-6">
+              <h6>High</h6>
+              <h4 class="temp-high"><span class="value">--</span>°C</h4>
+            </div>
+          </div> 
+        </div>
+        
+      </div>
+      <!-- END #weather-forecast-days -->
+      
+    </div>
+    <!-- END div.container -->
+      
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+
+          <ul class="list-unstyled">
+            <li class="pull-right"><a href="#top">Back to top</a></li>
+            <li><a href="legal-notice.html">Impressum / Legal Notice</a></li>
+          </ul>
+          <p>Made by <a href="XXX" rel="nofollow">Jonas Flint</a>. Contact him at <a href="mailto:jonas@flintflint.de">jonas@flintflint.de</a>.</p>
+          <p>Code released under the MIT License</a>.</p>
+          <p>TODO: Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/monoweather.js"></script>
+  </body>
+</html>
